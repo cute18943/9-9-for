@@ -4,21 +4,32 @@ using namespace std;
 
 int main(){
 
-int a=0,b=0,c=0,d=0,e=0,f=0,g=0,h=0,i=0;
+int a=0,b=0,c=0,d=0,e=0,f=0,g=0,h=0,i=0,j=0,k=0;
+cin>>f;
+i=f-1;
 
-for(a=1;a<=9;a++){
-for(d=1;d<=9;d++){
-cout<<d;
-for(e=1;e<=9-8;e++){
+for(a=1;a<=f;a++){
+for(d=1;d<=f;d++){
+cout<<setw(2)<<d;
+for(e=1;e<=f-i;e++){
 cout<<"*";
-for(b=1;b<=9-8;b++){
+for(k=1;k<=f-i;k++){
+cout<<setw(2);
+for(b=1;b<=f-i;b++){
 cout<<a;
-for(c=1;c<=9-8;c++){
+for(c=1;c<=f-i;c++){
 cout<<"=";
-for(g=1;g<=9-8;g++){
-cout<<setw(2)<<a*d;
-for(h=1;h<=9-8;h++){
+for(e=1;e<=f-i;e++){
+cout<<setw(4);
+for(j=1;j<=f-i;j++){
+k=a*d;
+for(g=1;g<=f-i;g++){
+cout<<a*d;
+for(h=1;h<=f-i;h++){
 cout<<" ";
+}
+}
+}
 }
 }
 }
