@@ -24,7 +24,7 @@ cout<<setw(4);
 for(j=1;j<=f-i;j++){
 k=a*d;
 for(g=1;g<=f-i;g++){
-cout<<a*d;
+cout<<k;
 for(h=1;h<=f-i;h++){
 cout<<" ";
 }
